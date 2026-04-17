@@ -1,0 +1,53 @@
+File,Suite,Test Case
+tests/landing.spec.js,Landing Page Tests,should load the correct URL
+tests/landing.spec.js,Landing Page Tests,should have a page title
+tests/landing.spec.js,Landing Page Tests,should display the header
+tests/landing.spec.js,Landing Page Tests,should display the logo
+tests/landing.spec.js,Landing Page Tests,should display navigation links
+tests/landing.spec.js,Landing Page Tests,should display Features button
+tests/landing.spec.js,Landing Page Tests,should display Login link
+tests/landing.spec.js,Landing Page Tests,should display Get a demo link in navigation
+tests/landing.spec.js,Landing Page Tests,should display hero section
+tests/landing.spec.js,Landing Page Tests,should display hero heading
+tests/landing.spec.js,Landing Page Tests,should display hero description text
+tests/landing.spec.js,Landing Page Tests,should display Try for free button
+tests/landing.spec.js,Landing Page Tests,should display Get a demo button in hero
+tests/landing.spec.js,Landing Page Tests,should display main content area
+tests/landing.spec.js,Landing Page Tests,should display all images
+tests/landing.spec.js,Landing Page Tests,should navigate to About page
+tests/landing.spec.js,Landing Page Tests,should open Features dropdown
+tests/landing.spec.js,Landing Page Tests,should navigate to Pricing page
+tests/landing.spec.js,Landing Page Tests,should navigate to Contact page
+tests/landing.spec.js,Landing Page Tests,should navigate to Blog page
+tests/landing.spec.js,Landing Page Tests,should navigate to Login page
+tests/landing.spec.js,Landing Page Tests,should click Try for free link
+tests/landing.spec.js,Landing Page Tests,should click Get a demo from hero
+tests/landing.spec.js,Landing Page Tests,should display correctly on mobile viewport
+tests/landing.spec.js,Landing Page Tests,should display correctly on tablet viewport
+tests/landing.spec.js,Landing Page Tests,should display hamburger menu on mobile
+tests/signIn.spec.js,Sign In Page Tests > Navigation,should navigate to sign in page from landing page
+tests/signIn.spec.js,Sign In Page Tests > Navigation,should load sign in page with form elements
+tests/signIn.spec.js,Sign In Page Tests > UI Elements Visibility,should display all form elements
+tests/signIn.spec.js,Sign In Page Tests > UI Elements Visibility,should display Google sign in button
+tests/signIn.spec.js,Sign In Page Tests > UI Elements Visibility,should display forget password and sign up links
+tests/signIn.spec.js,Sign In Page Tests > Positive Test Cases,should sign in successfully with valid credentials
+tests/signIn.spec.js,Sign In Page Tests > Positive Test Cases,should sign in with remember me checked
+tests/signIn.spec.js,Sign In Page Tests > Positive Test Cases,should allow typing in form fields
+tests/signIn.spec.js,Sign In Page Tests > Positive Test Cases,should toggle remember me checkbox
+tests/signIn.spec.js,Sign In Page Tests > Positive Test Cases,should navigate to forget password page
+tests/signIn.spec.js,Sign In Page Tests > Positive Test Cases,should navigate to sign up page
+tests/signIn.spec.js,Sign In Page Tests > Negative Test Cases,should not sign in with wrong email
+tests/signIn.spec.js,Sign In Page Tests > Negative Test Cases,should not sign in with wrong password
+tests/signIn.spec.js,Sign In Page Tests > Negative Test Cases,should not sign in with empty fields
+tests/signIn.spec.js,Sign In Page Tests > Negative Test Cases,should not sign in with malformed email
+tests/signIn.spec.js,Sign In Page Tests > Edge Case Tests,should handle SQL injection attempt
+tests/signIn.spec.js,Sign In Page Tests > Edge Case Tests,should handle XSS attempt
+tests/signIn.spec.js,Sign In Page Tests > Edge Case Tests,should handle special characters in password
+tests/signIn.spec.js,Sign In Page Tests > Edge Case Tests,should handle long email input
+tests/signIn.spec.js,Sign In Page Tests > Edge Case Tests,should handle long password input
+tests/signIn.spec.js,Sign In Page Tests > Edge Case Tests,should clear form fields
+tests/signIn.spec.js,Sign In Page Tests > Edge Case Tests,should mask password input
+tests/signIn.spec.js,Sign In Page Tests > Accessibility Tests,should have focusable form elements
+tests/signIn.spec.js,Sign In Page Tests > Accessibility Tests,should submit form with Enter key
+tests/signIn.spec.js,Sign In Page Tests > Responsive Tests,should display correctly on mobile
+tests/signIn.spec.js,Sign In Page Tests > Responsive Tests,should display correctly on tablet

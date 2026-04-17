@@ -1,0 +1,24 @@
+{
+  "name": "playwright-automation",
+  "version": "1.0.0",
+  "description": "Playwright automation framework",
+  "type": "module",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:ui": "npx playwright test --ui",
+    "test:debug": "npx playwright test --debug",
+    "test:dev": "TEST_ENV=dev npx playwright test",
+    "test:staging": "TEST_ENV=staging npx playwright test",
+    "test:prod": "TEST_ENV=prod npx playwright test",
+    "report": "npx playwright show-report",
+    "codegen": "npx playwright codegen"
+  },
+  "keywords": ["playwright", "automation", "testing"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0"
+  }
+}
