@@ -1,5 +1,5 @@
 // @ts-check
-// Allure reporting enabled - 2026-04-17
+// Allure CLI fix - 2026-04-17
 import { test, expect } from '../fixtures/test.js';
 import { config } from '../config/environments.js';
 import { timeouts } from '../config/timeouts.js';
