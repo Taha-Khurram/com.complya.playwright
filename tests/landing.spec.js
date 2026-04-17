@@ -1,5 +1,5 @@
 // @ts-check
-// Allure CLI fix - 2026-04-17
+// Workflow update - GitHub Pages deployment
 import { test, expect } from '../fixtures/test.js';
 import { config } from '../config/environments.js';
 import { timeouts } from '../config/timeouts.js';
